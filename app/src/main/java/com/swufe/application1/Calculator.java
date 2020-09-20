@@ -17,7 +17,7 @@ public class Calculator extends AppCompatActivity {
         TextView tv =findViewById(R.id.textView6);
         tv.setText(String.valueOf(Integer.parseInt(tv.getText().toString())+Integer.parseInt(view.getTag().toString())));
     }
-
+    //add something
     public void clear(View view) {
         TextView tv = findViewById(R.id.textView6);
         tv.setText("0");
