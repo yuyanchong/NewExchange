@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">温度与计算</string>
+    <string name="temperature">温度转换</string>
+    <string name="calculator">简易计算</string>
+    <string name="temperaturename">温度转换器</string>
+    <string name="calculatorname">计算</string>
+    <string name="inputhint">请输入摄氏温度</string>
+    <string name="tembutton">摄氏度转华氏度</string>
+    <string name="button1">+1分</string>
+    <string name="button2">+2分</string>
+    <string name="button3">+3分</string>
+    <string name="button4">重置</string>
+</resources>

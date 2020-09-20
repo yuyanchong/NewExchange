@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">Application1</string>
+    <string name="app_name">Temperature Calculator</string>
+    <string name="temperature">temperature</string>
+    <string name="calculator">calculator</string>
+    <string name="calculatorname">calculator</string>
+    <string name="temperaturename">Temperature change</string>
+    <string name="inputhint">please input the temperature℃</string>
+    <string name="tembutton">℃ convert ℉</string>
+    <string name="button1">+1 ponint(s)</string>
+    <string name="button2">+2 ponint(s)</string>
+    <string name="button3">+3 ponint(s)</string>
+    <string name="button4">reset</string>
 </resources>

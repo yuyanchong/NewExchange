@@ -1,7 +1,11 @@
 package com.swufe.application1;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -9,7 +13,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        //add something here
-        //something may be wrong with this project
     }
+    public void jumptemperature(View view){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Temperature.class);
+        startActivity(intent);
+    }
+    public void jumpcalculator(View view){
+        Intent intent = new Intent();
+        intent.setClass(MainActivity.this,Calculator.class);
+        startActivity(intent);
+    }
+
 }
